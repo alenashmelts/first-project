@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.2em;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    background-color: #11332d;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(182, 182, 182);
+}
+
+footer {
+    background-color: #11332d;
+    ;
+}
+
+#about {
+    background-color: rgba(196, 196, 196, 0,5);
+    text-align: center;
+    padding: 10px 50px;
+    border: 5px solid black;
+}
+
+#articles {
+    background-color: rgb(58, 58, 58);
+    padding: 10px 50px;
+}
+#content{background-color: rgba(196, 196, 196, 0,5);
+    text-align: center;
+    padding: 10px 50px;}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+ul {
+    list-style: none;
+}
+a:link{
+    color: aliceblue;
+}
+a:visited {
+color: rgb(31, 31, 31);
+}
+a:hover{
+color: rgb(102, 102, 102);
+text-decoration:overline;
+}
+a:active{
+    color: rgb(61, 90, 55);
+}
+ a:focus{
+    color: rgb(197, 80, 80);
+}
+.menu-articles li:nth-child(2n+1){
+    background-color: gray
+}
+#about h2::after{
+    content:"new!";
+    font-size: 20px;
+    color: green;
+    margin-left: 10px
+}
+#new:after{
+    content:"Важно!";
+    font-size: 20px;
+    color: green;
+    margin-left: 10px
+}
+
+
+
+
+
+
+.bill-table {
+    border: 5px red solid;
+    border-collapse: collapse;
+}
+.bill-table td,
+.bill-table th {
+    border-bottom: 1px black solid;
+    padding: 5px 20px;
+}
+
+.bill-table tr:nth-child(odd) {
+    color: red;
+}
+.bill-table td:nth-child(3) {
+    text-decoration: underline;
+}
+#reg-form input[type=text],
+#reg-form input[type=password]
+{
+    border: 1px solid blue;
+    background: lightcyan;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 180px;
+    color: darkblue;
+}
+
+a[href^=http]
+{
+    background: blue;
+}
