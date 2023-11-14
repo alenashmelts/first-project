@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+    <meta name="keywords" content="Ван Гог, Великие художники, Винсе́нт Ви́ллем Ван Гог">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,7 @@
             <ul>
                 <li><a href="#about">Ван Гог</a></li>
                 <li><a href="#articles">Cтатьи</a></li>
+                <li><a href="#contact-form">Обратная связь</a></li>
             </ul>
         </nav>
     </header>
@@ -27,9 +29,9 @@
         <section id="about">
             <h2>Винсе́нт Ви́ллем Ван Гог</h2>
             <a href="img/vangogh.jpg" download>
-                <img src="img/vangogh.jpg" alt=" фото автора"></a>
-            <p> Нидерландский художник-постимпрессионист, чьи работы оказали вневременное влияние на живопись XX века.</p>
-            <p lang="en">slhfshdfhsdhlfhsldhfjshdfhsdjlfhsdhfjdhsjldhftext</p>
+                </div><img src="img/vangogh.jpg" alt=" фото автора"></a>
+            <p class="second"> Нидерландский художник-постимпрессионист, чьи работы оказали вневременное влияние на живопись XX века.</p>
+            <p  id="lang" lang="en">Today Vincent Van Gogh is supposed to be one of the greatest Dutch painters</p>
             <p>За десять с небольшим лет создал более 2 100 произведений, включая около 870 картин маслом. Среди них — портреты, автопортреты, пейзажи, натюрморты и панно с изображением оливковых деревьев, кипарисов, полей пшеницы и подсолнухов. При жизни был практически обойдён вниманием критиков.</p>
         </section>
         <section id="articles">
@@ -40,9 +42,50 @@
                 <li><a href="article3.html">Галерея</a></li>
                 <li><a href="article4.html">Акции вандализма над картинами</a></li>
                 <li><a href="article5.html">Память</a></li>
-                <li class="new"><a href="article6.html">Список терминов</a></li>
+                <li id="new"><a href="article6.html">Список терминов</a></li>
             </ol>
         </section>
+        <section id="contact-form">
+        <form class="reg-form">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <div class="form_item">
+                <label for="name">Имя</label><br>
+                <input name="name" id="name" type="text" placeholder="Имя" required>    
+            </div>
+            <div class="form_item">
+                <label for="tel">Телефон</label><br>
+                <input name="tel" id="tel" type="text" placeholder="Номер телефона" required>    
+            </div>
+            <div class="form_item">
+                <label for="topic">E-mail</label><br>
+             <input  name="E-mail" id="E-mail" type="text" placeholder="Эл. адрес" required>    
+            </div>
+            <div class="form_item">
+                <label for="topic">Текст сообщения</label><br>
+                <textarea name="text" id="text" type="text" rows="5" cols="33" placeholder="Текст сообщения" required></textarea>    
+            </div>
+            <div class="form_item">
+                <label for="topic">Дата</label><br>
+                <input name="datetime" id="datetime" type="text" placeholder="Дата" required>    
+            </div>
+            <div>
+                <input type="checkbox" id="PrivacyPolicy" name="Privacy Policy" value="female" required>
+        <label for="Privacy Policy">Вы даёте согласие на обработку персональных данных в соответствии с Политикой и принимаете условия Оферты
+        </label><br>
+            </div>
+            <div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </section>
+    </form>
     </main>
     <footer>
         <p>&copy; Алена Шмельц, 2023 г.</p>
