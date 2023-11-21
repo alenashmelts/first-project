@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.2em;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    background-color: #11332d;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(182, 182, 182);
+}
+
+footer {
+    background-color: #11332d;
+    ;
+}
+
+#about {
+    background-color: rgba(196, 196, 196, 0,5);
+    text-align: center;
+    padding: 10px 50px;
+    border: 5px solid black;
+}
+
+#articles {
+    background-color: rgb(58, 58, 58);
+    padding: 10px 50px;
+}
+#content{background-color: rgba(196, 196, 196, 0,5);
+    text-align: center;
+    padding: 10px 50px;}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+ul {
+    list-style: none;
+}
+a:link{
+    color: rgb(0, 0, 0);
+}
+a:visited {
+color: rgb(0, 0, 0);
+}
+a:hover{
+color: rgb(102, 102, 102);
+text-decoration:overline;
+}
+a:active{
+    color: rgb(61, 90, 55);
+}
+ a:focus{
+    color: rgb(197, 80, 80);
+}
+.menu-articles li:nth-child(2n+1){
+    background-color: gray
+}
+#about h2::after{
+    content:"new!";
+    font-size: 20px;
+    color: green;
+    margin-left: 10px
+}
+
+#lang {
+color: rgb(49, 51, 77);
+font-size: x-large;
+}
+#new:after{
+    content:"Важно!";
+    font-size: 20px;
+    color: green;
+    margin-left: 10px
+}
+a+p {
+    margin-top: 50px;
+  }
+  ::first-line {
+    letter-spacing: 5px;
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type=password], 
+  #contact-form select,
+  #contact-form textarea,
+  #contact-form input[type="email"]{
+    width: 250px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: rgb(255, 255, 255) 1px;
+    background-color: #424242;
+  }
+  #contact-form select{
+    width: auto;
+    height: auto;
+  }
+
+
+  #contact-form input[type="submit"]{
+    background-color: rgb(139, 68, 77);
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(255, 255, 255) 1px;
+    border-radius: 25px;
+  }
+  
+
+
+
+  #contact-form input[type="submit"]:hover,
+  #contact-form input[type="submit"]:focus{
+    color: rgb(255, 0, 0);
+  }
+  
+
+
+
+
+
+.bill-table {
+    border: 5px rgb(37, 71, 49) solid;
+    border-collapse: collapse;
+}
+.bill-table td,
+.bill-table th {
+    border-bottom: 1px black solid;
+    padding: 5px 20px;
+}
+
+.bill-table tr:nth-child(odd) {
+    color: rgb(100, 116, 106);
+}
+.bill-table td:nth-child(3) {
+    text-decoration: underline;
+}
+#reg-form input[type=text],
+#reg-form input[type=password]
+{
+    border: 1px solid rgb(35, 121, 35);
+    background: lightcyan;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 180px;
+    color: rgb(122, 58, 182);
+}
+
+a[href^=http]
+{
+    background: rgb(255, 255, 255);
+}
